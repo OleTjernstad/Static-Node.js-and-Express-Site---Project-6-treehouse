@@ -16,18 +16,17 @@ body {
 
 body {
     position: relative;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Original Surfer", cursive;
     font-weight: normal;
     line-height: 1.5;
     color: #0a0a0a;
-    background: #fefefe;
-    background: #000;
+    background: #fa8334;
     transform: translateX(0px);
     transition: all 0.4s ease-out;
 }
 
 article {
-    background: #fefefe;
+    background: #ffe882;
 }
 
 h1,
@@ -36,11 +35,11 @@ h3,
 h4,
 h5,
 p {
-    font-family: "Merriweather", serif;
+    font-family: "Original Surfer", cursive;
 }
 
 h5 {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Original Surfer", cursive;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -67,7 +66,7 @@ a {
     min-width: 320px;
     height: 100%;
     min-height: 100%;
-    background: #fefefe;
+    background: #ffe882;
 }
 
 .flex-row-wrap {
@@ -86,7 +85,7 @@ a {
     width: 100%;
     max-width: 1200px;
     padding: 40px 50px 30px;
-    background: #fefefe;
+    background: #ffe882;
     border-bottom: 1px solid #eaeaea;
 }
 
@@ -112,17 +111,18 @@ nav {
     width: 100%;
     padding: 20px;
     border-bottom: 1px solid #eaeaea;
+    background-color: #271033;
 }
 
 nav a {
     width: 100%;
     vertical-align: middle;
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Original Surfer", cursive;
     font-weight: 600;
     font-size: 13px;
     letter-spacing: 2.5px;
     text-transform: uppercase;
-    color: #555;
+    color: rgb(233, 233, 233);
 }
 
 nav a span {
@@ -140,7 +140,7 @@ nav a span {
     height: 100%;
     min-height: 100%;
     padding: 20px;
-    background: #000;
+    background: #fa8334;
 }
 
 .sidebar-info-box {
@@ -155,6 +155,7 @@ nav a span {
     width: 100%;
     max-width: 250px;
     border: 4px solid #fff;
+    border-radius: 50%;
 }
 .sidebar .logo {
     width: 100%;
@@ -174,11 +175,11 @@ nav a span {
     text-rendering: optimizeLegibility;
     line-height: 1.6;
     font-size: 14px;
-    color: #999;
+    color: rgb(34, 34, 34);
 }
 
 .sidebar a {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Original Surfer", cursive;
     font-weight: 600;
     font-size: 13px;
     letter-spacing: 2.5px;
@@ -188,7 +189,7 @@ nav a span {
 
 .header {
     vertical-align: middle;
-    color: #fefefe;
+    color: #f00882;
     height: 40px;
     padding: 0.5rem;
     background: #0a0a0a;
@@ -248,7 +249,7 @@ nav a span {
 }
 
 .projects-box h5 {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Original Surfer", cursive;
     font-weight: 500;
     font-size: 13px;
     letter-spacing: 2.25px;
