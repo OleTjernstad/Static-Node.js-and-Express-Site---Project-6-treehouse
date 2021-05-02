@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     res.status(err.status || 500);
     res.locals.error = err;
-
+    console.error(err.message);
     if (err.status == 404) {
         res.render("errors/page-not-found");
         return;
