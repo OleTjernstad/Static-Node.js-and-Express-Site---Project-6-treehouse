@@ -4,7 +4,7 @@
             "id": 0,
             "project_name": "A Random Quote Generator",
             "description": "An app that displays random famous quotes each time a button is clicked.",
-            "technologies": ["javascript", "HTML"],
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://oletjernstad.github.io/A-Random-Quote-Generator---project-1-treehouse/",
             "github_link": "https://github.com/OleTjernstad/A-Random-Quote-Generator---project-1-treehouse",
             "image_urls": [
@@ -17,7 +17,7 @@
             "id": 1,
             "project_name": "Data Pagination and Filtering",
             "description": "An app that implements \"pagination\" to enhance the usability of the app. \n The app shows a list of students from a data file contains 42 students",
-            "technologies": ["javascript", "HTML"],
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://oletjernstad.github.io/Data-Pagination-and-Filtering---Project-2-treehouse/",
             "github_link": "https://github.com/OleTjernstad/Data-Pagination-and-Filtering---Project-2-treehouse",
             "image_urls": [
@@ -30,7 +30,7 @@
             "id": 2,
             "project_name": "Interactive form",
             "description": "Make an interactive registration form, to make the form more user-friendly",
-            "technologies": ["javascript"],
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://oletjernstad.github.io/Interactive-Form---project-3-treehouse/",
             "github_link": "https://github.com/OleTjernstad/Interactive-Form---project-3-treehouse",
             "image_urls": [
@@ -43,7 +43,7 @@
             "id": 3,
             "project_name": "OOP Game show app",
             "description": "A browser-based, word guessing game: \"Phrase Hunter.\". Player guesses the random phrase by clicking letters on the screen, or the keyboard",
-            "technologies": ["javascript"],
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://oletjernstad.github.io/OOP-Game-Show-App---Project-4-treehouse/",
             "github_link": "https://github.com/OleTjernstad/OOP-Game-Show-App---Project-4-treehouse",
             "image_urls": [
@@ -56,7 +56,7 @@
             "id": 4,
             "project_name": "Public API Requests",
             "description": "Showcasing the employees for a company called Awesome Startup.",
-            "technologies": ["javascript"],
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://oletjernstad.github.io/Public-API-Requests---Project-5-Treehouse/",
             "github_link": "https://github.com/OleTjernstad/Public-API-Requests---Project-5-Treehouse",
             "image_urls": [
