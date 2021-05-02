@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content
+    h1 Ups!!!! Something is broken, try again later, we will work our magic!
+    p= `${error.status} - ${error.message}`
+block image
+    img(src='/static/images/500.svg')

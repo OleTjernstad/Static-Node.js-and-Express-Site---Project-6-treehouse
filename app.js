@@ -17,14 +17,15 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-    res.locals.error = err;
     res.status(err.status || 500);
+    res.locals.error = err;
 
     if (err.status == 404) {
-        res.render("page-not-found");
+        res.render("errors/page-not-found");
         return;
     }
-    res.render("error");
+    res.locals.error.status = 500;
+    res.render("errors/error");
 });
 
 app.listen(3000, () => {

@@ -27,6 +27,7 @@ html(lang="en" dir="ltr")
             margin: 5px;
             text-align: center;
             height: 30rem;
+            width: 40%;
             align-items: center;
             justify-content: center;
             display: flex;
@@ -49,7 +50,7 @@ html(lang="en" dir="ltr")
   body
     .parent
         .div-item
-            h1 Something is missing, we couldn't find that page!
-            p= `${error.status} - ${error.message}`
-        
-        img.div-item(src='/static/images/404.svg')
+            block content
+            
+        .div-item
+            block image

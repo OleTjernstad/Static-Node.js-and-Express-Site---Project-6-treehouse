@@ -11,7 +11,7 @@ router.get("/project/:id(\\d+)", (req, res, next) => {
         (project) => project.id == req.params.id
     );
     if (!project) {
-        const err = new Error("Not Found");
+        const err = new Error("Project Not Found");
         err.status = 404;
         next(err);
         return;

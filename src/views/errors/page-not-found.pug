@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content
+    h1 Something is missing, we couldn't find that page!
+    p= `${error.status} - ${error.message}`
+block image
+    img(src='/static/images/404.svg')
