@@ -10,6 +10,18 @@ app.set("views", "./src/views");
 app.use(routes);
 app.use("/static", express.static("public"));
 
+app.use((req, res, next) => {
+    const err = new Error("Not Found");
+    err.status = 404;
+    next(err);
+});
+
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render("404");
+});
+
 app.listen(3000, () => {
-  console.log("Running on localhost:3000!");
+    console.log("Running on localhost:3000!");
 });
