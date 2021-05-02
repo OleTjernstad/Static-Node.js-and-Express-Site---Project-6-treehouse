@@ -1,23 +1,24 @@
 {
-  "name": "project-6",
-  "version": "1.0.0",
-  "description": "static-node.js-and-express-site for treehouse",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OleTjernstad/Static-Node.js-and-Express-Site---Project-6-treehouse.git"
-  },
-  "author": "Ole Tjernstad",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/OleTjernstad/Static-Node.js-and-Express-Site---Project-6-treehouse/issues"
-  },
-  "homepage": "https://github.com/OleTjernstad/Static-Node.js-and-Express-Site---Project-6-treehouse#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "pug": "^3.0.2"
-  }
+    "name": "project-6",
+    "version": "1.0.0",
+    "description": "static-node.js-and-express-site for treehouse",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OleTjernstad/Static-Node.js-and-Express-Site---Project-6-treehouse.git"
+    },
+    "author": "Ole Tjernstad",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/OleTjernstad/Static-Node.js-and-Express-Site---Project-6-treehouse/issues"
+    },
+    "homepage": "https://github.com/OleTjernstad/Static-Node.js-and-Express-Site---Project-6-treehouse#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "pug": "^3.0.2"
+    }
 }
