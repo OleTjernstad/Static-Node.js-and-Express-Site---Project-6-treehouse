@@ -1,0 +1,18 @@
+extends layout.pug
+
+block content
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back
+    .error-parent
+        .error-item
+            h1 Ups!!!! Something is broken, try again later, we will work our magic!
+            p= `${error.status} - ${error.message}`
+            a.btn-link(href='/') Back home
+            
+        .error-item
+            img.error-img(src='/static/images/500.svg')
+
+
+    

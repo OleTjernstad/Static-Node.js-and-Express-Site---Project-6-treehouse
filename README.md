@@ -1,5 +1,13 @@
 # Static Node.js and Express Site - Project 6 treehouse
 
+## Getting started
+
+To get the Node server running locally:
+
+-   Clone this repo
+-   `npm install` to install all required dependencies
+-   `npm start` to start the local server
+
 ## Layout, CSS and styles
 
 -   Added logo of my company Tjernstad Utvikling
@@ -41,3 +49,8 @@
 
 -   [x] Customize the package.json file
     -   Set up your package.json file so that running npm start will run the app.
+-   [x] Render helpful Pug templates in your error handling middleware
+    -   Create two new Pug templates in the views folder and name them error.pug and page-not-found.pug. These Pug files should extend the layout, be set to block content, and display the error's message, status
+    -   When the status property is a 404, the page-not-found.pug template should be rendered. For any other error status codes, the error.pug template should be rendered.
+    -   These templates should include a link back to the home page.
+-   [x] Customize the style, see "Layout, CSS and styles" above.

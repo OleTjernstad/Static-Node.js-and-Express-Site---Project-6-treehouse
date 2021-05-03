@@ -21,11 +21,11 @@ app.use((err, req, res, next) => {
     res.locals.error = err;
     console.error(err.message);
     if (err.status == 404) {
-        res.render("errors/page-not-found");
+        res.render("page-not-found");
         return;
     }
     res.locals.error.status = 500;
-    res.render("errors/error");
+    res.render("error");
 });
 
 app.listen(3000, () => {

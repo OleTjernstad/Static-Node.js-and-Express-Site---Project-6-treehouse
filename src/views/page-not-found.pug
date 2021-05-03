@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+    .error-parent
+        .error-item
+            h1 Something is missing, we couldn't find that page!
+            p= `${error.status} - ${error.message}`
+            a.btn-link(href='/') Back home
+            
+        .error-item
+            img.error-img(src='/static/images/404.svg')
+    
+
+
+    
